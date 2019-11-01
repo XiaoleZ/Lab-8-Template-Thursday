@@ -95,8 +95,9 @@ class CityListTest {
     }
 
     @Test
-    boolean testBoolean(){
-        return false;
+    void testTrueFalse(){
+
+        assertEquals(false, true);
     }
 
 }
